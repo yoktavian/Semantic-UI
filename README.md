@@ -31,7 +31,7 @@ When download is completed and the installer is ready just open the file and ins
 
 <img width="500" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Inpm1.png">
 
-Just click the continue
+Click continue
 
 <img width="500" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Inpm2.png">
 
@@ -48,7 +48,7 @@ And here we go, node JS is already installed on your computer! Close it and leav
 `npm --version`
 
 If you see the version like `6.14.5` (version that i used when writting this docs) in your terminal it means you're on the right track. 
-`11` 
+
 <li> <b> Gulp </b> 
 
 Gulp is toolkit to automate & enchance workflow. You can read more at 

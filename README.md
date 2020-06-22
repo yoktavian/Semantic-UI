@@ -29,19 +29,19 @@ I'll wating for you, so take your time and take your coffee when downloading the
 
 When download is completed and the installer is ready just open the file and install it.
 
-<img width="200" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Inpm1.png">
+<img width="500" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Inpm1.png">
 
 Just click the continue
 
-![](/asset/Inpm2.png)
+<img width="500" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Inpm2.png">
 
 Hit continue button again
 
-![](/asset/Inpm3.png)
+<img width="500" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Inpm3.png">
 
 Hit install button
 
-![](/asset/Inpm4.png)
+<img width="500" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Inpm4.png">
 
 And here we go, node JS is already installed on your computer! Close it and leave it. The final step is to double check that node JS is installed on your computer, please open new terminal (if you already open it before installation complete, close the terminal first then reopen it) then type:
 

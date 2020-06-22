@@ -5,11 +5,9 @@ Hello! before i am going to give an explanation about semantic-ui i wanna you to
 I will start my explanation and give you some tutorial step by step how to using semantic-ui.
 
 <b>Outlines :</b>
-<p>I'll using my WWWH pattern on this topic
-<li> What
-<li> When
-<li> Where
-<li> How
+<p>I'll using WH pattern on this topic.
+<li> <b> What </b>
+<li> <b> How </b>
 
 Let's start with <b>What.</b>
 
@@ -97,3 +95,49 @@ in this case i used `11.15.0` version, so should be like this
 `sudo n 11.15.0`
 
 With all of step that we have done it should be works, at least for me. 😂
+
+Last but not least after you success to install semantic-ui, inside your folder you should found semantic folder. On your terminal you can type:
+
+`cd semantic/`
+
+In the other hand you can open terminal via folder instead, whatever it is you should on semantic path inside your project folder then run this on terminal
+
+`gulp build`
+
+Waiting for gulp to cooked your project, when it is done your semantic-ui is ready to use. Oke let's see how semantic-ui work.
+
+Create index.html in your root project, then try it.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+        <script src="semantic/dist/semantic.min.js"></script>
+    </head>
+    <body>
+        <button class="ui button">Click Here</button>
+    </body>
+</html>
+```
+
+Open your index.html in your browser, if semantic-ui is working well you will see these two button below.
+
+<img width="500" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Sbutton1.png">
+
+The most important thing is you need to add these code below into your html.
+
+```
+<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="semantic/dist/semantic.min.js"></script>
+```
+
+When you have done, you can using semantic-ui component inside your view. You can read more about semantic-ui and the component at [here](https://semantic-ui.com/introduction/getting-started.html).

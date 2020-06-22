@@ -21,8 +21,41 @@ You should notice on the `development framework`, `layout` and `HTML`. These key
 # How
 There is some options that you can to follow. On this stage, i wanna minimize the different step if we are using diferrent OS (Windows, Mac, etc) for example my laptop with yours or somebody else who read this docs. Ok, let's start the experiment.
 
+<li> <b>Node JS </b>
+
 First you need to install node JS, please going to this an official website and download node JS installer. [Click here to Download!](https://nodejs.org/en/download/). 
 
 I'll wating for you, so take your time and take your coffee when downloading the file. I recommend you to dowload `LTS (recommended for most user)` version instead of `current (latest)`. Why? because `LTS` version should be more stable than `current` version. But in the other hand if you wanna try the latest version it should be fine, just try it.
 
 When download is completed and the installer is ready just open the file and install it.
+
+![](/asset/Inpm1.png)
+
+Just click the continue
+
+![](/asset/Inpm2.png)
+
+Hit continue button again
+
+![](/asset/Inpm3.png)
+
+Hit install button
+
+![](/asset/Inpm4.png)
+
+And here we go, node JS is already installed on your computer! Close it and leave it. The final step is to double check that node JS is installed on your computer, please open new terminal (if you already open it before installation complete, close the terminal first then reopen it) then type:
+
+`npm --version`
+
+If you see the version like `6.14.5` (version that i used when writting this docs) in your terminal it means you're on the right track. 
+`11` 
+<li> <b> Gulp </b> 
+
+Gulp is toolkit to automate & enchance workflow. You can read more at 
+[here](https://gulpjs.com/). 
+
+Semantic UI uses gulp to provide command line tools for building themed version of library and depend on what components you need for the UI. Let's started to installing gulp.
+
+We need to installing gulp using node JS that been installed before. Open your terminal first, then type: 
+
+`npm install -g gulp`

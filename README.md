@@ -56,6 +56,44 @@ Gulp is toolkit to automate & enchance workflow. You can read more at
 
 Semantic UI uses gulp to provide command line tools for building themed version of library and depend on what components you need for the UI. Let's started to installing gulp.
 
-We need to installing gulp using node JS that been installed before. Open your terminal first, then type: 
+We need to installing gulp using node package manager (npm) that been installed before. Open your terminal first, then type: 
 
 `npm install -g gulp`
+
+When you got an error like `permission denied`, runing it using `sudo` instead.
+
+`sudo npm install -g gulp`
+
+<li> Semantic UI
+
+Now is semantic UI turns, the main purpose why i write this docs.  Before we  are going to install semantic UI please create a new folder or specify the folder where you want to create your project. If you finished, open terminal inside the folder then type it:
+
+`npm install semantic-ui --save`
+
+Then your terminal will installing semantic UI.
+
+<img width="500" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Isemantic1.png">
+
+When you got an error and installation incomplete because of it, you can check the solution below depend on your error message.
+
+1. If you got an error `cannot find xcode or CLT` you can following [this](https://medium.com/flawless-app-stories/gyp-no-xcode-or-clt-version-detected-macos-catalina-anansewaa-38b536389e8d) instructions. Try to installing xcode command or if you already done but got the same error just  reinstall it.
+
+2. If you got an error `ReferenceError: primordials is not defined` please check your node version using `node -v` and gulp version `gulp --v`. I think it's happen because of the version of node and gulp is not compatible. You can trying to downgrade node version using these steps below.
+
+Open your terminal then type:
+
+`npm install -g n`
+
+If you got an error with permission try using sudo
+
+`sudo npm install -g n`
+
+then force to install with specific version
+
+`sudo n version`
+
+in this case i used `11.15.0` version, so should be like this
+
+`sudo n 11.15.0`
+
+With all of step that we have done it should be works, at least for me. 😂

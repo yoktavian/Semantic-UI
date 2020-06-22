@@ -29,7 +29,7 @@ I'll wating for you, so take your time and take your coffee when downloading the
 
 When download is completed and the installer is ready just open the file and install it.
 
-![](/asset/Inpm1.png)
+<img width="200" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Inpm1.png">
 
 Just click the continue
 

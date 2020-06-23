@@ -152,11 +152,11 @@ Semantic UI react is likely semantic UI. The different is semantic ui react prov
 
 ## How
 
-Because we want to use semantic-ui react, before we can using it we should install it using:
+Because we want to use semantic-ui-react, before we can using it we should install it using:
 
 ` npm install semantic-ui-react`
 
-When it installed, you need to installing another stuff that is semantic-ui css.
+When it installed, you need to installing another stuff that is semantic-ui-css.
 
 `npm install semantic-ui-css`
 
@@ -180,4 +180,4 @@ Here we go! your project is ready. Open index.js files in src folder, then impor
 
 `import 'semantic-ui-css/semantic.min.css'`
 
-Paste into index.js files. When it's completed it means that you already including semantic-ui into your project. You can try adding some semantic-ui component into your app.js. How to use semantic-ui components and what kinds you can read [here](https://react.semantic-ui.com/usage#examples).
+Paste into index.js files. When it's completed it means that you already including semantic-ui into your project. You can try adding some semantic-ui component into your app.js. How to use semantic-ui-react components and what are the type that you can use? you can read at [here](https://react.semantic-ui.com/usage#examples).

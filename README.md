@@ -148,7 +148,7 @@ Let's getting started with <b>what</b>.
 
 ## What
 
-Semantic UI react is likely semantic UI. The different is semantic ui react provide react components while semantic UI provide themes as CSS stylesheet.
+Semantic UI react is similiar with semantic UI. The different is semantic UI react provide react components while semantic UI provide themes as CSS stylesheet.
 
 ## How
 

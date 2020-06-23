@@ -141,3 +141,43 @@ The most important thing is you need to add these code below into your html.
 ```
 
 When you have done, you can using semantic-ui component inside your view. You can read more about semantic-ui and the component at [here](https://semantic-ui.com/introduction/getting-started.html).
+
+# Semantic UI React
+
+Let's getting started with <b>what</b>.
+
+## What
+
+Semantic UI react is likely semantic UI. The different is semantic ui react provide react components while semantic UI provide themes as CSS stylesheet.
+
+## How
+
+Because we want to use semantic-ui-react, before we can using it we should install it using:
+
+` npm install semantic-ui-react`
+
+When it installed, you need to installing another stuff that is semantic-ui-css.
+
+`npm install semantic-ui-css`
+
+Perfect! semantic-ui react is ready to use. The next step is select specific folder to save your project. Open terminal in selected folder then create project:
+
+`npx create-react-app project-name`
+
+When it finished, move to the root of your project.
+
+`cd project-name`
+
+Start your project using:
+
+`npm start`
+
+Suddenly your browser will opened with `http://localhost:3000/` urls, your browser should contains this image below.
+
+<img width="500" alt="portfolio_view" src="https://github.com/yoktavian/Semantic-UI/blob/master/asset/Ireact1.png">
+
+Here we go! your project is ready. Open index.js files in src folder, then import the css files, copy this:
+
+`import 'semantic-ui-css/semantic.min.css'`
+
+Paste into index.js files. When it's completed it means that you already including semantic-ui into your project. You can try adding some semantic-ui component into your app.js. How to use semantic-ui-react components and what are the type that you can use? you can read at [here](https://react.semantic-ui.com/usage#examples).

@@ -180,4 +180,44 @@ Here we go! your project is ready. Open index.js files in src folder, then impor
 
 `import 'semantic-ui-css/semantic.min.css'`
 
-Paste into index.js files. When it's completed it means that you already including semantic-ui into your project. You can try adding some semantic-ui component into your app.js. How to use semantic-ui-react components and what are the type that you can use? you can read at [here](https://react.semantic-ui.com/usage#examples).
+Paste into index.js files. 
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import 'semantic-ui-css/semantic.min.css'
+import * as serviceWorker from './serviceWorker';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+serviceWorker.unregister();
+
+```
+When it's completed it means that you already including semantic-ui into your project. You can try adding some semantic-ui component into your app.js. How to use semantic-ui-react components and what are the type that you can use? you can read at [here](https://react.semantic-ui.com/usage#examples).
+
+Here i wanna give a sample, in this case i wanna add button into my project. First going to src folder, then open app.js.
+
+`import { Button } from 'semantic-ui-react'`
+
+You need to import button component first into app.js, then add button inside your app function like here:
+
+```
+iimport React from 'react';
+import { Button } from 'semantic-ui-react';
+import './App.css';
+
+function App() {
+  return (
+    <Button>Click Here</Button>
+  );
+}
+
+export default App;
+```
+Save your changes, check your browser! When you see a button appear, its work then. 🎉🎉🎉
